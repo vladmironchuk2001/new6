@@ -3,7 +3,7 @@ info:
   version: "0.0.5"
   title: FP_Rating
 # during dev, should point to your local machine
-host: localhost:8081
+host: localhost:8181
 # basePath prefixes all resource paths 
 basePath: /api/v1
 # 
