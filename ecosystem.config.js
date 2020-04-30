@@ -18,7 +18,7 @@ module.exports = {
     env_production: {
       NODE_ENV: 'production',
       swagger_mockMode: true, 
-      PORT: 10011
+      PORT: 8181
     }
   }],
 
