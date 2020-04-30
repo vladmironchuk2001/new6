@@ -16,6 +16,6 @@ RUN npm install
 # Bundle app source
 COPY . .
 
-EXPOSE 10011
+EXPOSE 8181
 #CMD [ "node", "./bin/www" ]
 CMD [ "pm2-runtime", "start", "ecosystem.config.js" ]

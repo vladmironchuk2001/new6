@@ -23,7 +23,7 @@ SwaggerExpress.create(config, function(err, swaggerExpress) {
 
 
 
-  var port = process.env.PORT || 10011;
+  var port = process.env.PORT ||8181;
   app.listen(port);
 
   console.log('check this to see docs :\n  http://127.0.0.1:' + port + '/');
